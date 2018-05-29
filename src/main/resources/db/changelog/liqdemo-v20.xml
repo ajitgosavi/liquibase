@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                                       http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+
+  <!--
+   |  Release Version 20
+   +-->
+
+   <changeSet id="1" author="manoj kumar">
+     <comment>Create razo Table (SQL style)</comment>
+     <sql>CREATE TABLE razo (id int PRIMARY KEY);</sql>
+     <rollback>DROP TABLE razo;</rollback>
+   </changeSet>
+
+   <changeSet id="2" author="manoj kumar">
+     <comment>Create ranger Table (SQL style)</comment>
+     <sql>CREATE TABLE ranger (id int PRIMARY KEY);</sql>
+     <rollback>DROP TABLE ranger;</rollback>
+   </changeSet>
+</databaseChangeLog>
