@@ -24,6 +24,7 @@
         <configuration>
           <propertyFile>src/main/resources/liquibase.properties</propertyFile>
           <propertyFileWillOverride>true</propertyFileWillOverride>
+          <promptOnNonLocalDatabase>false</promptOnNonLocalDatabase>       
         </configuration>
       </plugin>
     </plugins>
