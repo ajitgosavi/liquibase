@@ -42,6 +42,20 @@
     <sql>CREATE TABLE test23 (id int PRIMARY KEY);</sql>
     <rollback>DROP TABLE test23;</rollback>
   </changeSet>
-
+      <changeSet author="raju" id="4">
+          <insert tableName="test1">
+              <column name="id" value=2/>
+              <column name="name" value="ajit"/>
+              <column name="active" value=1 />
+          </insert>
+      </changeSet>
+   
+      <changeSet author="raju" id="5">
+          <insert tableName="test1">
+              <column name="id" value=2/>
+              <column name="name" value="ajit"/>
+              <column name="active" value=1 />
+          </insert>
+      </changeSet>
 
 </databaseChangeLog>
