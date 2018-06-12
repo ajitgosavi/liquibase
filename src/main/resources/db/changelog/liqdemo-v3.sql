@@ -17,6 +17,3 @@ ALTER TABLE test3 ADD COLUMN name VARCHAR(10);
 INSERT INTO test3 (id, name) VALUES (1, 'foo');
 INSERT INTO test3 (id, name) VALUES (2, 'bar');
 --rollback TRUNCATE TABLE test3;
-
---changeset bar:4
-INSERT INTO test3 (id, name) VALUES (1, 'ajit');
