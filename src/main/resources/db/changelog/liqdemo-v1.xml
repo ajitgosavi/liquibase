@@ -65,7 +65,7 @@
        </addColumn>
    </changeSet> 
   
-   <changeSet author="satish" id="56489">
+   <changeSet author="satish" id="56789">
        <addColumn tableName="test1">
           <column name="AlternativeListPrice2" type="double" defaultValue="0.0">
         </column>
