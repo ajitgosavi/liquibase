@@ -9,6 +9,11 @@
    +-->
 
   <changeSet id="1" author="foo">
+    <preConditions onFail="MARK_RAN">
+      <not>
+        <tableExists tableName="test1"/>
+      </not>
+     </preConditions>
     <comment>Create test1 Table (XML style)</comment>
     <createTable tableName="test1">
       <column type="int" name="id">
