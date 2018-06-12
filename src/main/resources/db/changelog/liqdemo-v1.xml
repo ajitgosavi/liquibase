@@ -57,7 +57,8 @@
               <column name="active"  valueBoolean="true" />
           </insert>
       </changeSet>
-   <changeSet author="satish" id="888">
+  
+   <changeSet author="satish" id="123456">
        <addColumn tableName="test1">
           <column name="AlternativeListPrice" type="double" defaultValue="0.0">
         </column>
