@@ -44,17 +44,17 @@
   </changeSet>
       <changeSet author="raju" id="4">
           <insert tableName="test1">
-              <column name="id" value=2/>
+              <column name="id" value="2"/>
               <column name="name" value="ajit"/>
-              <column name="active" value=1 />
+              <column name="active" value="1" />
           </insert>
       </changeSet>
    
       <changeSet author="raju" id="5">
           <insert tableName="test1">
-              <column name="id" value=2/>
-              <column name="name" value="ajit"/>
-              <column name="active" value=1 />
+              <column name="id" value="3"/>
+              <column name="name" value="jai"/>
+              <column name="active" value="1" />
           </insert>
       </changeSet>
 
