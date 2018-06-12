@@ -46,7 +46,7 @@
           <insert tableName="test1">
               <column name="id" value="2"/>
               <column name="name" value="ajit"/>
-              <column name="active" value="1" />
+              <column name="active"  valueBoolean="true" />
           </insert>
       </changeSet>
    
@@ -54,7 +54,7 @@
           <insert tableName="test1">
               <column name="id" value="3"/>
               <column name="name" value="jai"/>
-              <column name="active" value="1" />
+              <column name="active"  valueBoolean="true" />
           </insert>
       </changeSet>
 
