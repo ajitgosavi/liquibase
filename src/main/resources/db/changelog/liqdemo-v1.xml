@@ -64,5 +64,12 @@
         </column>
        </addColumn>
    </changeSet> 
+  
+   <changeSet author="satish" id="56489">
+       <addColumn tableName="test1">
+          <column name="AlternativeListPrice" type="double" defaultValue="0.0">
+        </column>
+       </addColumn>
+   </changeSet> 
 
 </databaseChangeLog>
