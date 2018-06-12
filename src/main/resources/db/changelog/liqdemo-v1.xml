@@ -42,7 +42,7 @@
     <sql>CREATE TABLE test23 (id int PRIMARY KEY);</sql>
     <rollback>DROP TABLE test23;</rollback>
   </changeSet>
-      <changeSet author="raju" id="4444">
+      <changeSet author="raju" id="444">
           <insert tableName="test1">
               <column name="id" value="2"/>
               <column name="name" value="ajit"/>
@@ -50,7 +50,7 @@
           </insert>
       </changeSet>
    
-      <changeSet author="raju" id="5555">
+      <changeSet author="raju" id="555">
           <insert tableName="test1">
               <column name="id" value="3"/>
               <column name="name" value="jai"/>
